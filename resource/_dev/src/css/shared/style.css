@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  background-color: #2d6cf3;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+}
+
+h1 > span {
+  font-size: 0.7em;
+}
+
+section {
+  background-color: #fff;
+  padding: 0 0 50px 0;
+}
+
+h2 {
+  background-color: darkgray;
+  text-align: center;
+}
+
+.btn {
+  background-color: #2d6cf3;
+  color: #fff;
+  border: 3px solid #8b8b8b ;
+  width: 70px;
+  height: 40px;
+}
+
+.rotation-slider {
+  width: 90%;
+  margin: 50px auto !important;
+}
+@media(max-width: 575px){
+  .rotation-slider {
+    width: 100%;
+    margin: 50px auto !important;
+  }
+}
+
+.rotation-slider.full{
+  width: 100%;
+  margin: 50px auto !important;
+}
+
+#slide9 {
+  width: 80%;
+}
+
+#slide10 {
+  width: 40%;
+}
